@@ -8,7 +8,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+MEDIA_ROOT = BASE_DIR / 'media'
+
 INSTALLED_APPS = [
+    'django_bootstrap5',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -79,7 +82,7 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-USE_L10N = True
+USE_L10N = False
 
 USE_TZ = True
 
